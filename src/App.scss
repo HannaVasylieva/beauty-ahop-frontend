@@ -1,0 +1,16 @@
+@import "Helpers/Vars.scss";
+@import "Helpers/Mixins.scss";
+
+.app {
+  font-family: "Poppins", sans-serif;
+  padding: 40px 130px;
+  color: $primary-color;
+
+  @include onLaptop {
+    padding: 40px 50px;
+  }
+
+  @include onTablet {
+    padding: 23px 27px;
+  }
+}

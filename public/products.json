@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Over The Moon",
+    "description": "Experience tranquility. Infused with a soothing blend of lavender and chamomile, this candle creates a serene atmosphere, perfect for relaxation and winding down. Its elegant design and soft glow make it a perfect addition to any space. Light it up and let your stress melt away.",
+    "image": "/candle1.jpg",
+    "price": "20",
+    "category": "CANDLES"
+  },
+  {
+    "id": 2,
+    "name": "Rose",
+    "description": "Indulge in the romantic essence of our Rose candle. Infused with the delicate and timeless scent of fresh roses, it brings a touch of elegance and warmth to any room. Perfect for creating a soothing atmosphere or setting a charming ambiance for special moments. Light it up and let the enchanting fragrance elevate your space.",
+    "image": "/candle2.jpg",
+    "price": "25",
+    "category": "CANDLES"
+  },
+  {
+    "id": 3,
+    "name": "Vanilla Dream",
+    "description": "Immerse yourself in the comforting embrace of our Vanilla Dream candle. With its rich, creamy vanilla scent, this candle evokes a sense of warmth and coziness. Perfect for creating a soothing and inviting atmosphere, it transforms any space into a haven of relaxation. Light it up and let the sweet, indulgent aroma fill your home with a touch of luxury.",
+    "image": "/candle3.jpg",
+    "price": "18",
+    "category": "CANDLES"
+  },
+  {
+    "id": 4,
+    "name": "Triple Flame",
+    "description": "Ignite your senses with the Triple Flame candle. Featuring three wicks for an enhanced, even burn, this candle delivers a powerful blend of aromas that create a dynamic and immersive experience. Perfect for adding a dramatic touch to your decor, its luxurious scent fills the room with warmth and elegance. Light all three wicks and let the captivating fragrance elevate your space.",
+    "image": "/candle4.jpg",
+    "price": "22",
+    "category": "CANDLES"
+  },
+  {
+    "id": 5,
+    "name": "Green Tea Serenity",
+    "description": "Unwind with the refreshing and invigorating scent of our Green Tea Serenity candle. Infused with the subtle, soothing fragrance of green tea, it creates a calming atmosphere perfect for relaxation and mindfulness. Ideal for brightening up any space with its clean, natural aroma, this candle helps you find peace and tranquility. Light it and let the serene scent of green tea envelop you.",
+    "image": "/candle5.jpg",
+    "price": "30",
+    "category": "CANDLES"
+  },
+  {
+    "id": 6,
+    "name": "Peach Bliss Body Lotion",
+    "description": "Pamper your skin with the Peach Bliss body lotion. Infused with the luscious scent of ripe peaches, this lotion delivers deep hydration and a velvety-soft feel. Enriched with nourishing ingredients, it absorbs quickly to leave your skin feeling smooth and refreshed. Embrace the sweet, fruity fragrance and indulge in a touch of luxury with every application.",
+    "image": "/body1.jpg",
+    "price": "30",
+    "category": "BODY"
+  },
+  {
+    "id": 7,
+    "name": "Radiant Glow Body Oil",
+    "description": "Elevate your skincare routine with Radiant Glow body oil. Infused with a blend of nourishing oils, this lightweight formula deeply hydrates and enhances your skin’s natural glow. Its silky texture absorbs effortlessly, leaving your skin soft, supple, and radiant. Perfect for a soothing massage or daily moisture, this body oil envelops you in a delicate, rejuvenating scent. Indulge in a touch of luxury and unveil your skin's true brilliance.",
+    "image": "/body2.jpg",
+    "price": "35",
+    "category": "BODY"
+  },
+  {
+    "id": 8,
+    "name": "Coconut Haven Body Lotion",
+    "description": "Escape to paradise with Coconut Haven body lotion. Enriched with the tropical scent of creamy coconut, this lotion provides deep hydration and a luxuriously smooth texture. Ideal for daily use, it absorbs quickly to leave your skin feeling soft, refreshed, and subtly scented with a hint of the tropics. Treat yourself to a daily dose of indulgence and let the calming aroma transport you to a serene beachside retreat.",
+    "image": "/body3.jpg",
+    "price": "55",
+    "category": "BODY"
+  },
+  {
+    "id": 9,
+    "name": "Floral Essence Body Oil",
+    "description": "Immerse yourself in the delicate fragrance of Floral Essence body oil. This luxurious blend of floral extracts and nourishing oils deeply hydrates and pampers your skin, leaving it silky smooth and radiant. The enchanting floral scent creates a serene, soothing atmosphere, making it perfect for a relaxing self-care ritual or a gentle daily moisturizer. Experience the elegance of blooming flowers with every application and enjoy a touch of nature’s beauty in your skincare routine.",
+    "image": "/body4.jpg",
+    "price": "40",
+    "category": "BODY"
+  },
+  {
+    "id": 10,
+    "name": "Velvet Touch Hand Cream",
+    "description": "Pamper your hands with Velvet Touch hand cream. Formulated to provide intense hydration and nourishment, this luxurious cream absorbs quickly, leaving your hands soft, smooth, and delicately scented. Enriched with soothing ingredients, it helps to protect and repair dry or damaged skin, making it an essential for maintaining soft, healthy hands throughout the day. Experience the ultimate in hand care with a touch of elegance and comfort.",
+    "image": "/body5.jpg",
+    "price": "40",
+    "category": "BODY"
+  },
+  {
+    "id": 11,
+    "name": "Radiant Glow Facial Serum",
+    "description": "Illuminate your complexion with Radiant Glow Facial Serum. Infused with a blend of vitamins and antioxidants, this serum enhances radiance while providing deep hydration. Its lightweight formula absorbs quickly, leaving your skin feeling refreshed and rejuvenated. Perfect for a luminous glow and youthful appearance, this serum is a must-have in your skincare routine.",
+    "image": "/face1.jpg",
+    "price": "45",
+    "category": "FACE"
+  },
+  {
+    "id": 12,
+    "name": "Calming Rose Facial Mist",
+    "description": "Refresh and hydrate your skin with Calming Rose Facial Mist. Enriched with rose water and soothing botanical extracts, this mist provides an instant burst of hydration while calming and balancing the skin. Ideal for use throughout the day, it revitalizes your complexion and leaves a delicate rose scent.",
+    "image": "/face2.jpg",
+    "price": "25",
+    "category": "FACE"
+  },
+  {
+    "id": 13,
+    "name": "Nourishing Vitamin C Cream",
+    "description": "Revitalize your skin with Nourishing Vitamin C Cream. Packed with vitamin C and essential nutrients, this cream brightens and evens out skin tone while providing intense moisture. Its rich, non-greasy formula is perfect for daily use, leaving your skin feeling soft, smooth, and radiant.",
+    "image": "/face3.jpg",
+    "price": "50",
+    "category": "FACE"
+  },
+  {
+    "id": 14,
+    "name": "Hydrating Aloe Vera Gel",
+    "description": "Soothe and hydrate your skin with Hydrating Aloe Vera Gel. This lightweight gel is infused with pure aloe vera and cooling agents to provide instant relief and deep moisture. Ideal for all skin types, it helps to calm irritation, reduce redness, and maintain a healthy, balanced complexion.",
+    "image": "/face4.jpg",
+    "price": "30",
+    "category": "FACE"
+  },
+  {
+    "id": 15,
+    "name": "Purifying Charcoal Face Mask",
+    "description": "Deep clean and purify your skin with Purifying Charcoal Face Mask. Formulated with activated charcoal, this mask draws out impurities and excess oil, leaving your skin feeling refreshed and revitalized. Its detoxifying properties help to unclog pores and improve skin texture, making it a great addition to your weekly skincare routine.",
+    "image": "/face5.jpg",
+    "price": "35",
+    "category": "FACE"
+  },
+  {
+    "id": 16,
+    "name": "Nourishing Argan Hair Oil",
+    "description": "Revitalize your hair with our Nourishing Argan Hair Oil. Enriched with pure argan oil, this treatment deeply moisturizes and strengthens your hair, leaving it soft, shiny, and manageable. Ideal for all hair types, it helps to repair damage, reduce frizz, and add a healthy, natural shine.",
+    "image": "/hair1.jpg",
+    "price": "40",
+    "category": "HAIR"
+  },
+  {
+    "id": 17,
+    "name": "Revitalizing Herbal Shampoo",
+    "description": "Cleanse and rejuvenate your hair with our Revitalizing Herbal Shampoo. Formulated with a blend of natural herbs and essential oils, this shampoo gently cleanses while nourishing your scalp and hair. Its refreshing fragrance and rich lather leave your hair feeling clean, vibrant, and full of life.",
+    "image": "/hair2.jpg",
+    "price": "25",
+    "category": "HAIR"
+  },
+  {
+    "id": 18,
+    "name": "Hydrating Banana Shampoo",
+    "description": "Transform your hair with our Hydrating Banana Shampoo. Infused with banana extract and nourishing oils, this shampoo deeply hydrates and detangles, leaving your hair silky smooth and manageable. Its tropical scent and rich formula make it perfect for daily use, ensuring soft, healthy, and beautiful hair.",
+    "image": "/hair3.jpg",
+    "price": "30",
+    "category": "HAIR"
+  },
+  {
+    "id": 19,
+    "name": "Strengthening Biotin Hair Mask",
+    "description": "Strengthen and repair your hair with our Strengthening Biotin Hair Mask. Packed with biotin and protein, this mask helps to fortify and restore damaged hair, improving elasticity and resilience. Its intensive formula provides deep conditioning and nourishment, leaving your hair stronger, softer, and more vibrant.",
+    "image": "/hair4.jpg",
+    "price": "35",
+    "category": "HAIR"
+  },
+  {
+    "id": 20,
+    "name": "Argan Scalp Treatment",
+    "description": "Revitalize your scalp with our Argan Scalp Treatment. This invigorating treatment combines argan oil and soothing botanicals to refresh and stimulate your scalp. Ideal for relieving dryness and itchiness, it leaves your scalp feeling rejuvenated and your hair looking healthy and revitalized.",
+    "image": "/hair5.jpg",
+    "price": "70",
+    "category": "HAIR"
+  }
+]

@@ -1,0 +1,25 @@
+@import "../Helpers/Mixins.scss";
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+  list-style: none;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 50px;
+
+  @include onLaptop {
+    gap: 20px;
+  }
+
+  @include onTablet {
+    margin-bottom: 0px;
+  }
+
+  @include onMobile {
+    display: flex;
+    flex-direction: column;
+  }
+}

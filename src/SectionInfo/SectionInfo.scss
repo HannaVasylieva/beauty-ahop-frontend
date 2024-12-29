@@ -1,0 +1,44 @@
+@import "../Helpers/Vars.scss";
+@import "../Helpers/Mixins.scss";
+
+.section-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+
+  @include onTablet {
+    justify-content: center;
+  }
+
+  @include onMobile {
+    margin-bottom: 100px;
+  }
+
+  &__left {
+    width: 380px;
+    color: $secondary-color;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+    @include onTablet {
+      display: none;
+    }
+  }
+
+  &__right {
+    font-size: 24px;
+    width: 600px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    @include onTablet {
+      text-align: center;
+    }
+
+    @include onMobile {
+      text-align: left;
+    }
+  }
+}

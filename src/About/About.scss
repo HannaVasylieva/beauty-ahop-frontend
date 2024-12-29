@@ -1,0 +1,110 @@
+@import "../Helpers/Vars.scss";
+@import "../Helpers/Mixins.scss";
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 200px;
+
+  @include onMobile {
+    margin-bottom: 100px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+
+    @include onTablet {
+      margin-right: 15px;
+    }
+
+    &-header {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 39.6px;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    &-text {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: $secondary-color;
+      margin-bottom: 40px;
+      margin-top: 0;
+    }
+
+    &-link {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18.2px;
+      text-decoration: none;
+      color: inherit;
+      padding-bottom: 10px;
+      position: relative;
+      width: 120px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background-color: $primary-color;
+        transition: all 0.3s ease;
+        transform: translateX(-50%);
+      }
+
+      &:hover::after {
+        width: 100%;
+        transform: translateX(-50%) rotate(180deg);
+      }
+    }
+  }
+
+  &__pictures {
+    display: flex;
+    align-items: flex-end;
+
+    @include onMobile {
+      display: none;
+    }
+
+    &-left {
+      width: 380px;
+      height: 529px;
+      object-fit: cover;
+      margin-right: 20px;
+      object-position: 80%;
+      border-radius: 5%;
+
+      @include onLaptop {
+        width: 280px;
+        height: 429px;
+        margin-right: 10px;
+      }
+    }
+
+    &-right {
+      width: 180px;
+      height: 430px;
+      object-fit: cover;
+      object-position: 100%;
+      border-radius: 5%;
+
+      @include onLaptop {
+        width: 80px;
+        height: 330px;
+      }
+
+      @include onTablet {
+        display: none;
+      }
+    }
+  }
+}

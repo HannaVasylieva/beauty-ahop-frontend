@@ -1,0 +1,129 @@
+@import "../Helpers/Vars.scss";
+@import "../Helpers/Mixins.scss";
+
+.header {
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+
+    @include onMobile {
+      margin-bottom: 40px;
+    }
+
+    &-links {
+      font-size: 23px;
+      line-height: 27px;
+      font-weight: 500;
+
+      @include onTablet {
+        display: none;
+      }
+    }
+
+    &-link {
+      text-decoration: none;
+      color: $primary-color;
+      margin-right: 80px;
+      position: relative;
+      transition: color 0.3s ease;
+
+      @include onLaptop {
+        margin-right: 35px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: $primary-color;
+        transition: width 0.3s ease;
+      }
+
+      &:hover {
+        color: $primary-color;
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &-img {
+      width: 50px;
+      height: 50px;
+      margin-right: 12px;
+
+      @include onMobile {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    &-span {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 18.2px;
+      color: $primary-color;
+
+      @include onMobile {
+        font-size: 10px;
+        line-height: 14px;
+      }
+    }
+  }
+
+  &__shopping-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(0.8);
+    }
+  }
+
+  &__cart-quantity {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+    @include onTablet {
+      top: 0px;
+      right: 0px;
+      font-size: 10px;
+    }
+  }
+
+  &__cart-img {
+    @include onTablet {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+@import "../Helpers/Vars.scss";
+@import "../Helpers/Mixins.scss";
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+
+    @include onLaptop {
+      width: 340px;
+      height: 340px;
+    }
+
+    @include onTablet {
+      width: 220px;
+      height: 220px;
+    }
+
+    @include onMobile {
+      width: 250px;
+      height: 250px;
+    }
+
+    &:hover {
+      transform: scale(0.95);
+      cursor: pointer;
+    }
+  }
+
+  &__name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: $secondary-color;
+    margin: 0;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $primary-color;
+      cursor: pointer;
+    }
+  }
+
+  &__buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__price {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: $secondary-color;
+    margin-right: 20px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(0.8);
+      cursor: pointer;
+    }
+  }
+
+  &__btn-img {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+  }
+}

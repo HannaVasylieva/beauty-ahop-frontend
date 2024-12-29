@@ -1,0 +1,21 @@
+@import "../Helpers/Vars.scss";
+
+.quantity {
+  &__btn {
+    margin-right: 10px;
+    background-color: $secondary-color;
+    color: $primary-color;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $primary-color;
+      color: $secondary-color;
+    }
+  }
+
+  &__number {
+    margin-right: 10px;
+  }
+}
